@@ -19,11 +19,11 @@
 
 <div id="receipt_wrapper" style="font-size: <?= $config['receipt_font_size'] ?>px;">
     <div id="receipt_header">
-        <?php if ($config['company_logo'] != '') { ?>
+        
             <div id="company_name">
-                <img id="image" src="<?= base_url('uploads/' . esc($config['company_logo'], 'url')) ?>" alt="company_logo">
+                <img id="image" src="./images/cherish/cherish-removebg-preview.png" alt="company_logo">
             </div>
-        <?php } ?>
+        
 
         <?php if ($config['receipt_show_company_name']) { ?>
             <div id="company_name"><?= $config['company'] ?></div>
